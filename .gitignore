@@ -1,0 +1,42 @@
+# ---- Maven / Java build output ----
+target/
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# ---- IDE: IntelliJ IDEA ----
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ---- IDE: Eclipse ----
+.classpath
+.project
+.settings/
+bin/
+
+# ---- IDE: VS Code / NetBeans ----
+.vscode/
+.nb-gradle/
+nbproject/
+build/
+nbbuild/
+dist/
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Logs and local configuration ----
+*.log
+*.tmp
+
+# Never commit real database credentials
+db.properties
+.env
